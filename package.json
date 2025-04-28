@@ -4,12 +4,13 @@
   "description": "test library",
   "main": "src/index.js",
   "scripts": {
-    "lint": "eslint src/ tests/",
+    "lint": "eslint -f @microsoft/eslint-formatter-sarif -o output/sarif/eslint.sarif src/ tests/",
     "test": "jest --ci"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@microsoft/eslint-formatter-sarif": "^3.1.0",
     "eslint-plugin-jsdoc": "^50.6.11",
     "jest": "^29.7.0",
     "jest-junit": "^16.0.0"
