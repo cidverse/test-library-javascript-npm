@@ -1,4 +1,4 @@
-# _Node NPM - Library_
+# _JavaScript NPM - Library_
 
 # Description
 
